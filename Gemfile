@@ -31,6 +31,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'dotenv-rails' # 開発環境で環境変数を操作するのに必要
 gem 'unicorn' # アプリケーションサーバのunicorn
 
+
 group :development, :test do
   gem 'capistrano', '3.16.0' # capistranoのツール一式
   gem 'capistrano-bundler'
@@ -50,6 +51,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  
 end
 
 group :test do
